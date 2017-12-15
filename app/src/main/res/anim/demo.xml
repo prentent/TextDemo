@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 透明度-->
+    <alpha />
+
+    <!-- 旋转-->
+    <rotate />
+
+    <!-- 缩放-->
+    <scale />
+
+    <!-- 移动-->
+    <translate />
+
+</set>

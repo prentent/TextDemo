@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 旋转-->
+    <!-- fromDegrees: 开始的角度 -->
+    <!-- toDegrees: 结束的角度-->
+
+    <!-- 默认，是绕着左上角 旋转的。-->
+    <!-- 许过想要修改旋转的中心：-->
+    <!-- pivotX： 旋转的x 。 使用 百分比 设置。-->
+    <!-- pivotY： 旋转的y-->
+
+    <rotate
+        android:duration="2000"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:toDegrees="360" />
+
+</set>

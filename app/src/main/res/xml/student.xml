@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--hello-->
+<Peoples>
+  <student num="001">
+     &lt;name&gt;张三 &lt;/name&gt;
+     <age>34</age>
+     <sex>boy</sex>
+     <idCard>513256</idCard>
+  </student>
+  <student num="002">
+     <name>铁蛋</name>
+     <age>18</age>
+     <sex>girl</sex>
+     <idCard>513257</idCard>
+  </student>
+</Peoples>

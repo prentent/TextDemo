@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--旋转，跳跃，我闭着眼-->
+
+    <!-- TODO 灰太郎 消失的动画 。 有一个问题：
+    无解：当设置圆心为50 ， 50% ， 属性不变，圆心不变。当移动的时候，
+    旋转，就变成了卫星运动。-->
+
+    <rotate
+        android:duration="2000"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="720" />
+
+    <!-- 跳转到顶上 ,延迟2秒执行。-->
+    <translate
+        android:duration="2000"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:startOffset="2000"
+        android:toXDelta="100%"
+        android:toYDelta="-100%" />
+
+    <!-- 再跳下来。 注意：这里的x、y都是相对于初始位置来说的。-->
+    <!-- 需要延迟4秒执行-->
+    <translate
+        android:duration="2000"
+        android:fromXDelta="100%"
+        android:fromYDelta="-100%"
+        android:startOffset="4000"
+        android:toXDelta="200%"
+        android:toYDelta="0" />
+
+    <!-- 缩放，慢慢隐藏 , 延迟6000执行-->
+    <scale
+        android:duration="1000"
+        android:fromXScale="100%"
+        android:fromYScale="100%"
+        android:startOffset="6000"
+        android:toXScale="0"
+        android:toYScale="0" />
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="1"
+        android:startOffset="6000"
+        android:toAlpha="0" />
+
+</set>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--这个意思就是： 一个包含了帧动画 每一帧 图片的一个集合。-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- item 就是每一帧显示的 项目：-->
+
+    <!-- drawable : 就是这一帧显示的图片-->
+    <!-- duration : 帧与帧之间，显示的间隔-->
+
+    <item
+        android:drawable="@drawable/girl_1"
+        android:duration="200" />
+
+    <item
+        android:drawable="@drawable/girl_2"
+        android:duration="200" />
+
+    <item
+        android:drawable="@drawable/girl_3"
+        android:duration="200" />
+
+    <item
+        android:drawable="@drawable/girl_4"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/girl_5"
+        android:duration="200" />
+
+
+    <item
+        android:drawable="@drawable/girl_6"
+        android:duration="200" />
+
+    <item
+        android:drawable="@drawable/girl_7"
+        android:duration="200" />
+
+    <item
+        android:drawable="@drawable/girl_8"
+        android:duration="200" />
+
+    <item
+        android:drawable="@drawable/girl_9"
+        android:duration="200" />
+
+    <item
+        android:drawable="@drawable/girl_10"
+        android:duration="200" />
+
+    <item
+        android:drawable="@drawable/girl_11"
+        android:duration="200" />
+
+
+</animation-list>

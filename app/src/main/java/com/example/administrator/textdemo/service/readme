@@ -1,0 +1,5 @@
+服务
+
+AIDL IPC 多个应用程序，多线程
+Binder   只有IPC 没有多线程 多个应用程序
+Messenger  只有IPC  没有多线程

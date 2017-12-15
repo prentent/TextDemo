@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--缩放 、放大-->
+
+
+    <!-- 缩放： 注意 : 必须同时设置 fromXScale fromYScale ，
+     不然，默认就是0 ，表示没有x  ， 或者 没有y。-->
+
+    <!-- fromXScale: x 的开始缩放比例。-->
+    <!-- toXScale : x 结束的缩放比例-->
+    <!-- fromYScale: y 开始-->
+    <!-- toYScale: y 结束-->
+
+    <!-- TODO  homework :通过缩放，实现一个翻扑克牌的操作-->
+    <scale
+        android:duration="2000"
+        android:fromXScale="100%"
+        android:fromYScale="100%"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0%"
+        android:toYScale="100%" />
+
+</set>

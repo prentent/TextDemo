@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:fillEnabled="true">
+    <!-- 平移-->
+
+    <!-- toXDelta:  可以传递两种类型的数据：
+                    int： 单位是px
+                    fraction：比率 。这里，是相对于控件本身的比。-->
+
+    <!-- CONTROL + D　直接复制所选内容 -->
+    <!-- fromXDelta: x 开始的位置-->
+    <!-- fromYDelta: y 开始的位置-->
+    <!-- toYDelta： y 结束的位置-->
+    <!-- toXDelta: x 结束的位置-->
+
+    <translate
+        android:duration="2000"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="500%"
+        android:toYDelta="100%"
+        android:zAdjustment="bottom" />
+
+</set>
