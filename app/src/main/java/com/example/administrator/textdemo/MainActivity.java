@@ -3,22 +3,20 @@ package com.example.administrator.textdemo;
 import android.content.Intent;
 import android.os.Bundle;
 
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.administrator.textdemo.connection.AidlActivity;
-import com.example.administrator.textdemo.animation.dhActivity;
-import com.example.administrator.textdemo.connection.ConActivity;
-import com.example.administrator.textdemo.connection.MessengerActivity;
-import com.example.administrator.textdemo.json_xml.JXActivity;
-import com.example.administrator.textdemo.ouerView.MyViewActivity;
-import com.example.administrator.textdemo.udp.UdpActivity;
+import com.example.administrator.textdemo.ui.AidlActivity;
+import com.example.administrator.textdemo.ui.ZheXianActivity;
+import com.example.administrator.textdemo.ui.dhActivity;
+import com.example.administrator.textdemo.ui.ConActivity;
+import com.example.administrator.textdemo.ui.MessengerActivity;
+import com.example.administrator.textdemo.ui.JXActivity;
+import com.example.administrator.textdemo.ui.MyViewActivity;
+import com.example.administrator.textdemo.ui.UdpActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -56,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void messnge_service(View view){startActivity(new Intent(this,MessengerActivity.class));}
     public void udp(View view){startActivity(new Intent(this,UdpActivity.class));}
+    public void zx(View view){startActivity(new Intent(this,ZheXianActivity.class));}
 
 
 

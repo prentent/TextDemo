@@ -1,4 +1,4 @@
-package com.example.administrator.textdemo.animation;
+package com.example.administrator.textdemo.ui;
 
 import android.graphics.drawable.AnimationDrawable;
 import android.support.v7.app.AppCompatActivity;

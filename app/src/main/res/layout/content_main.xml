@@ -61,5 +61,12 @@
             android:onClick="udp"
             android:text="UDP测试" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bk"
+            android:onClick="zx"
+            android:text="折线图" />
+
     </com.example.administrator.textdemo.view.FluidLayout>
 </LinearLayout>

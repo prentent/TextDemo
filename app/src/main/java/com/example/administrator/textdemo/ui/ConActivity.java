@@ -1,4 +1,4 @@
-package com.example.administrator.textdemo.connection;
+package com.example.administrator.textdemo.ui;
 
 import android.content.ComponentName;
 import android.content.Intent;

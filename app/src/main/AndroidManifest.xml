@@ -31,23 +31,24 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".json_xml.JXActivity" />
-        <activity android:name=".animation.dhActivity" />
-        <activity android:name=".caream.CaremActivity" />
+        <activity android:name=".ui.JXActivity" />
+        <activity android:name=".ui.dhActivity" />
+        <activity android:name=".ui.CaremActivity" />
 
         <provider
             android:name=".contprovider.MyContProvider"
             android:authorities="lh_ce"
             android:exported="true" />
 
-        <activity android:name=".connection.AidlActivity" />
-        <activity android:name=".connection.ConActivity" />
+        <activity android:name=".ui.AidlActivity" />
+        <activity android:name=".ui.ConActivity" />
 
         <service android:name=".service.LocalService" />
 
-        <activity android:name=".ouerView.MyViewActivity" />
-        <activity android:name=".connection.MessengerActivity" />
-        <activity android:name=".udp.UdpActivity"></activity>
+        <activity android:name=".ui.MyViewActivity" />
+        <activity android:name=".ui.MessengerActivity" />
+        <activity android:name=".ui.UdpActivity" />
+        <activity android:name=".ui.ZheXianActivity"></activity>
     </application>
 
 </manifest>
